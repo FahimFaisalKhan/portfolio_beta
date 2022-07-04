@@ -1,0 +1,31 @@
+.heading-primary {
+  font-size: 5rem;
+  text-transform: capitalize;
+  font-weight: 600;
+
+  &_main {
+    width: 70%;
+    line-height: 10rem;
+    margin-bottom: 5rem;
+  }
+  &_span {
+    color: orange;
+  }
+}
+.heading-secondary {
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+  &_last {
+    color: orange;
+  }
+}
+
+.paragraph {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #666;
+  line-height: 2.5rem;
+}

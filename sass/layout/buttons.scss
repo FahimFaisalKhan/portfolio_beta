@@ -1,0 +1,19 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    background: linear-gradient(50deg, lightsalmon 0%, tomato 70%);
+    font-weight: 600;
+    background-color: orange;
+    display: inline-block;
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 7px;
+  }
+  &-heading {
+    margin-top: 1.5rem;
+  }
+}

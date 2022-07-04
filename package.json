@@ -1,0 +1,22 @@
+{
+  "name": "portfolio_beta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FahimFaisalKhan/portfolio_beta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FahimFaisalKhan/portfolio_beta/issues"
+  },
+  "homepage": "https://github.com/FahimFaisalKhan/portfolio_beta#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

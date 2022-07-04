@@ -1,0 +1,19 @@
+.section-header {
+  position: relative;
+  height: 80vh;
+}
+
+.header-left-box {
+  margin-top: 4rem;
+  &_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+.heading-image {
+  height: 75rem;
+  display: block;
+  margin: 0 auto;
+}
